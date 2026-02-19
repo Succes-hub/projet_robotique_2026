@@ -1,0 +1,27 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+BusyBox v1.38.0-FRP-5857-g3681e397f (2025-10-10 08:26:06 UTC)
+
+Usage: make [--posix] [-C DIR] [-f FILE] [-j NUM] [-x PRAG] [-eiknpqrsSt] [MACRO[:[:[:]]]=VAL]... [TARGET]...
+
+Maintain files based on their dependencies
+
+    --posix  Enforce POSIX mode
+    -C DIR   Change to DIR
+    -f FILE  Makefile
+    -j NUM   Jobs to run in parallel (not implemented)
+    -x PRAG  Make POSIX mode less strict
+    -e       Environment variables override macros in makefiles
+    -i       Ignore exit status
+    -k       Continue on error
+    -n       Dry run
+    -p       Print macros and targets
+    -q       Query target; exit status 1 if not up to date
+    -r       Don't use built-in rules
+    -s       Make silently
+    -S       Stop on error
+    -t       Touch files instead of making them
+
+This build supports: non-POSIX extensions, POSIX 2024, POSIX 2017
+In strict POSIX mode the 2024 standard is enforced by default
+C:\Users\etulyon1\scoop\apps\busybox\current\busybox.exe: unknown option -- dry-run
+
