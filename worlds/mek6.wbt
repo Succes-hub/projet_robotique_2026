@@ -8,18 +8,18 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/project
 WorldInfo {
 }
 Viewpoint {
-  orientation 0.22156243478598198 -0.1501797075549972 -0.9635123989500098 4.298667397159237
-  position 1.9217025817359406 -4.845712404048914 2.917791183308872
+  orientation -0.31849140065473397 0.2999346470733045 0.8992232399098669 1.7362993787279675
+  position 0.054888664796327535 -4.004664613404409 4.272867187023325
 }
 TexturedBackground {
 }
 Robot {
-  translation -0.33705664883747183 -0.5569795207814497 -6.394216041203521e-05
-  rotation 0.0007174287486950874 0.0026226357565442664 0.9999963035320075 -0.5340426621441967
+  translation -0.3567447265674305 -0.1646007353123552 -6.394561092638168e-05
+  rotation -0.0006489639064191035 -0.00021283901832571571 0.999999766772673 -2.5077659754615347
   children [
     HingeJoint {
       jointParameters HingeJointParameters {
-        position 1873.1012135124338
+        position 2061.2562821306383
         axis 0 1 0
         anchor 0 0 0.02
       }
@@ -35,8 +35,8 @@ Robot {
         }
       ]
       endPoint DEF EPUCK_LEFT_WHEEL Solid {
-        translation 0 0.02599999999999999 0.02
-        rotation 0 1 0 4.075341363007171
+        translation 0 0.025999999999999985 0.02
+        rotation 0 0.9999999999999999 0 3.734850765824072
         children [
           DEF EPUCK_WHEEL Pose {
             rotation 1 0 0 -1.570796
@@ -168,13 +168,13 @@ Robot {
           density -1
           mass 0.005
         }
-        linearVelocity -5.253694257544218e-05 3.106813603713285e-05 2.1427037896140462e-11
-        angularVelocity -0.001553394646369303 -0.002626826573250747 -2.4016519843762026e-10
+        linearVelocity 7.035286950055307e-06 5.170881946689334e-06 1.9718227033180403e-11
+        angularVelocity -0.00025855797144193706 0.00035178322378448925 1.7781881618187174e-10
       }
     }
     HingeJoint {
       jointParameters HingeJointParameters {
-        position 2003.743477926386
+        position 2204.1444610494686
         axis 0 1 0
         anchor 0 0 0.02
       }
@@ -190,8 +190,8 @@ Robot {
         }
       ]
       endPoint DEF EPUCK_RIGHT_WHEEL Solid {
-        translation 0 -0.025999999999999947 0.02
-        rotation 0 -1 0 0.06650743728547161
+        translation 0 -0.025999999999999957 0.02
+        rotation 0 -1 0 0.7274541439496433
         children [
           Pose {
             rotation 1 0 0 3.14159
@@ -203,8 +203,8 @@ Robot {
         name "right wheel"
         boundingObject USE EPUCK_WHEEL_BOUNDING_OBJECT
         physics USE EPUCK_WHEEL_PHYSICS
-        linearVelocity -5.2536942487172426e-05 3.106813599096172e-05 2.153859311564544e-11
-        angularVelocity -0.0015533946467944629 -0.002626826572883963 2.316106005923834e-10
+        linearVelocity 7.035286951694248e-06 5.170881954291103e-06 1.986033557014742e-11
+        angularVelocity -0.0002585579712821001 0.0003517832238785618 -1.8077215265303639e-10
       }
     }
     DEF BATTERY_CONNECTOR Pose {
@@ -1592,8 +1592,8 @@ Robot {
   controller "e-puck_avoid_obstacles"
   cpuConsumption 1.11
   remoteControl "e-puck_bluetooth"
-  linearVelocity -3.940346537812209e-05 2.330155054248238e-05 2.6119338040594927e-08
-  angularVelocity -0.0015533946363769707 -0.0026268265560424387 -4.277472865394173e-12
+  linearVelocity 5.275912479980321e-06 3.877755207436264e-06 7.60631403805174e-10
+  angularVelocity -0.00025855798303774644 0.0003517832394034294 -1.476004983501299e-12
 }
 TexturedBackgroundLight {
 }
