@@ -35,5 +35,5 @@ Ce projet démontre la maîtrise du **contrôle PID** (Proportionnel-Intégral-D
 ## Commandes à maitriser par coeur
 `code inline`
 ```bash
-git add . ; git commit -m "README.md" ; git push new_branch main
+git add . ; git commit -m "commentaire voulu" ; git push new_branch main
 ```
